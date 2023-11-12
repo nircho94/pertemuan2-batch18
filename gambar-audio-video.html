@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gambar</title>
+  </head>
+  <body>
+    <a href="text-format.html">Text Formatting</a> | 
+     <a href="paragraf.html">Paragraf</a> |
+     <a href="heading.html">Heading</a> |
+     <a href="hyperlink.html">Hyperlink</a> |
+
+    <h1>Memuat Gambar</h1>
+
+    <!-- 
+        Menampilkan gambar  ==> tag img
+     -->
+
+    <!-- 
+        jika gambar berada di 1 lokasi dengan file html
+        <img src="namafile.ekstensi" alt="keterangan_gambar" />
+    -->
+    <img src="prakerja.png" alt="Logo Prakerja" width="150px" />
+
+    <!-- 
+        jika gambar berada di luar dari folder file html (folder sebelumnya)
+        <img src="../namafile.ekstensi" alt="keterangan_gambar" />
+    -->
+    <img src="../profile-picture.png" alt="Profile Picture" width="150px" />
+
+    <!-- 
+        jika gambar berada di dalam folder
+        <img src="namafolder/namafile.ekstensi" alt="keterangan_gambar" />
+    -->
+    <img src="assets/hacktiv8.png" alt="Logo Hacktiv8" width="150px" />
+
+    <!-- 
+        jika gambar berada di dalam folder dari suatu folder
+        <img src="namafolder1/namafolder2/namafile.ekstensi" alt="keterangan_gambar" />
+    -->
+    <img src="assets/images/bendera-indonesia.png" alt="Bendera Indonesia" width="150px" />
+
+    <hr/>
+
+    <h1>Memuat Audio</h1>
+    <audio controls="controls">
+        <source src="assets/audio.mp3" />
+    </audio>
+
+    <hr/>
+
+    <h1>Memuat Video</h1>
+    <video controls="controls">
+        <source src="assets/video.mp4" />
+    </video>
+
+    <hr/>
+
+    <h1>Menambahkan Video Youtube</h1>
+
+    <iframe width="596" height="335" src="https://www.youtube.com/embed/X64N1n_1P-8"  allowfullscreen></iframe>
+
+    
+  </body>
+</html>

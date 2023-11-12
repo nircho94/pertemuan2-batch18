@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Prakerja 2023</h1>
+
+    <div id="formulir-pendaftaran">
+        <form action="">
+            <label for="nama">Nama: </label>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" /> <br/>
+            
+            <label for="tanggal_lahir">Tanggal Lahir: </label>
+            <input type="date" name="tanggal_lahir" id="tanggal_lahir" /> <br/>
+    
+            <label for="alamat" style="vertical-align: top;">Alamat: </label>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea> <br/> 
+    
+            <label for="kewarganegaraan">Kewarganegaraan: </label>
+            <select name="kewarganegaraan" id="kewarganegaraan">
+                <option value="" disabled selected>- Pilih Kewarganegaraan -</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Palestina">Palestina</option>
+            </select> <br/>
+    
+            <label for="jenis_kelamin">Jenis Kelamin: </label>
+            <input type="radio" name="jenis_kelamin" id="laki_laki" value="Laki-laki" />Laki - Laki 
+            <input type="radio" name="jenis_kelamin" id="perempuan" value="Perempuan" />Perempuan  
+            <br/>
+    
+            <label for="email">E-Mail: </label>
+            <input type="email" name="email" id="email" /> <br/>
+    
+            <label for="nama_pelatihan">Pelatihan: </label>
+            <input type="checkbox" name="nama_pelatihan[]" value="HTML" />HTML <br/>
+            <input type="checkbox" name="nama_pelatihan[]" value="CSS" />CSS <br/>
+            <input type="checkbox" name="nama_pelatihan[]" value="JavaScript" />JavaScript <br/>
+            <input type="checkbox" name="nama_pelatihan[]" value="SQL" />SQL <br/>
+            <input type="checkbox" name="nama_pelatihan[]" value="PHP" />PHP <br/>
+        
+            <label for="jumlah_anggota_keluarga">Jumlah Anggota Keluarga: </label>
+            <input type="number" name="jumlah_anggota_keluarga" id="jumlah_anggota_keluarga" /> <br/><br/>
+    
+            <input type="submit" value="Simpan" /> 
+            <input type="reset" value="Reset" /> 
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>

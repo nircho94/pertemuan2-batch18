@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Table</title>
+</head>
+<body>
+    <h1>Membuat Tabel</h1>
+
+    <!-- 
+        format:
+        <table>
+            <tr>
+                <td>konten1</td>
+                <td>konten2</td>
+            </tr>
+        </table>
+
+        tr      ==> membuat baris   ==> ke bawah
+        td      ==> membuat kolom   ==> ke samping kanan
+        colspan ==> menggabung kolom 
+        rowspan ==> menggabung baris
+    -->
+
+    <table border="1" cellspacing="0" cellpadding="5">
+        <!-- baris pertama -->
+        <tr>
+            <th rowspan="2">No.</th>
+            <th colspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+        </tr>
+        <!-- baris kedua -->
+        <tr>
+            <th>Depan</th>
+            <th>Belakang</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Elkan</td>
+            <td>Baggott</td>
+            <td>England</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Beckham</td>
+            <td>Putra Nugraha</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ramadhan</td>
+            <td>Sananta</td>
+            <td>Jakarta</td>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
